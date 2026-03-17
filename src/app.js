@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
+import Project from "./components/Project";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <Header />
             <Home />
             <About />
+            <Project />
         </div>
     );
 }
