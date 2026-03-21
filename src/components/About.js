@@ -2,7 +2,7 @@ import EducationCard from "./EducationCard";
 
 const About = () => {
     return (
-        <div className="flex justify-between px-12 pb-4 bg-gray-50 pt-6">
+        <div id="about" className="flex justify-between px-12 pb-4 bg-gray-50 pt-6 scroll-mt-16">
             <div className="w-lg">
                 <div className="font-medium text-4xl pb-6">About Me</div>
                 <div className="flex flex-col leading-7.5 gap-5">
