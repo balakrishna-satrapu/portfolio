@@ -6,6 +6,7 @@ const Project = () => {
             <div className="text-4xl font-medium text-center mt-8">Projects</div>
             <div className="flex justify-center gap-15 flex-wrap px-10 py-8">
                 <ProjectCard 
+                    image="https://media.istockphoto.com/id/1303636257/photo/restaurant-food-delivery-service-in-phone-take-away-menu-in-digital-mobile-app-man-ordering.jpg?s=612x612&w=0&k=20&c=aBXAvQ_jBMc54_KMSZGbPf9axp1B952tCP7dzu2qkz4="
                     code="https://github.com/balakrishna-satrapu/Food-Delivery-App-Cravely" 
                     demoURL="https://food-delivery-app-cravely.vercel.app"
                     demoName="Live Demo"
@@ -13,13 +14,15 @@ const Project = () => {
                     description="A responsive food delivery frontend application using React, Redux, and Tailwind CSS while integrating mock data from Swiggy APIs." 
                     techStack={["React.js", "Redux", "Tailwind CSS", "Parcel"]}/>
                 <ProjectCard 
+                    image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTwUchbFSIIh1sc2gCFMU98gYI65-e8sMGfg&s"
                     code="https://github.com/balakrishna-satrapu/devConnect-web" 
                     demoURL="https://dev-connect-web-hazel.vercel.app/" 
                     demoName="Live Demo"
                     name="Social Media App" 
                     description="A full-stack Social Media application with user authentication. Developed using React and Tailwind CSS, Node.js, Express.js, and MongoDB." 
                     techStack={["React.js", "Redux", "Node.js", "Express", "Vite"]}/>
-                <ProjectCard 
+                <ProjectCard
+                    image="https://kotaielectronics.com/wp-content/uploads/2025/06/license_plate.png"
                     code="https://github.com/balakrishna-satrapu/Character-Recognition-in-Low-Resolution-Images" 
                     demoURL="https://zenodo.org/records/15314311" 
                     demoName="Publication"

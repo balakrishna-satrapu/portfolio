@@ -7,8 +7,10 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => {
+const Portfolio = () => {
     return (
         <div>
             <Header />
@@ -19,6 +21,17 @@ const App = () => {
             <Contact />
             <Footer />
         </div>
+    );
+}
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Portfolio />} />
+                <Route path="/resume" element={<Resume />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 

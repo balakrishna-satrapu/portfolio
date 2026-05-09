@@ -1,7 +1,10 @@
-const ProjectCard = ({code, demoName, demoURL, name, description, techStack}) => {
+const ProjectCard = ({code, image, demoName, demoURL, name, description, techStack}) => {
     return (
         <div className="w-84 border border-gray-300 rounded-xl">
-            <div className="w-84 h-46 bg-gray-200 rounded-t-xl"></div>
+            <img 
+                src={image}
+                alt="Food delivery Image" 
+                className="w-84 h-46 rounded-t-xl"></img>
             <div className="p-4">
                 <div className="text-xl font-medium">{name}</div>
                 <div className="pt-3">{description}</div>

@@ -1,4 +1,5 @@
 import scrollToSection from "../utils/scrollToSection";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,7 +15,11 @@ const Home = () => {
                 <div className="flex gap-10 pt-10">
                     <button onClick={() => scrollToSection("projects")} className="bg-black text-white w-32 h-13 hover: cursor-pointer">View projects</button>
                     <button onClick={() => scrollToSection("contact")} className="text-gray-900 border border-gray-400 w-32 h-13 hover: cursor-pointer">Get in Touch</button>
-                    <button className="text-gray-900 border border-gray-400 w-42 h-13 hover: cursor-pointer">Download Resume</button>
+                    <Link 
+                        to="/resume"
+                        className="flex items-center justify-center cursor-pointer text-gray-900 border border-gray-400 w-42 h-13">
+                            View Resume
+                    </Link>
                 </div>
             </div>
             <div className="w-74 h-74 rounded-[50%] bg-gray-200"></div>
