@@ -8,7 +8,7 @@ const Home = () => {
                     <div className="text-5xl font-medium">Balakrishna Satrapu</div>
                     <div className="text-xl text-gray-700">Full Stack Developer</div>
                     <div className="text-md text-gray-700">
-                        I craft beautiful digital experiences with clean code and thoughtful design. Passionate about creating solutions that make a difference.
+                        Aspiring Software Engineer with strong problem-solving skills and hands-on experience building scalable full-stack applications using React.js, Node.js, Express and MongoDB. Seeking entry-level SDE roles.
                     </div>
                 </div>
                 <div className="flex gap-10 pt-10">
