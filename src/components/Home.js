@@ -22,7 +22,11 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className="w-74 h-74 rounded-[50%] bg-gray-200"></div>
+            <img 
+                src="https://res.cloudinary.com/dbd9aol5s/image/upload/v1778396001/Screenshot_2025-12-24_141024_kzdfb9.png"
+                alt="profile photo" 
+                className="object-cover w-72 h-72 rounded-[50%]"
+            />
         </div>
     )
 }

@@ -4,7 +4,7 @@ const ProjectCard = ({code, image, demoName, demoURL, name, description, techSta
             <img 
                 src={image}
                 alt="Food delivery Image" 
-                className="w-84 h-46 rounded-t-xl"></img>
+                className="object-cover w-84 h-46 rounded-t-xl"></img>
             <div className="p-4">
                 <div className="text-xl font-medium">{name}</div>
                 <div className="pt-3">{description}</div>
